@@ -26,6 +26,12 @@
     {
       "dict": {
         "type": "text",
+        "file": "TWPhrases.txt"
+      }
+    },
+    {
+      "dict": {
+        "type": "text",
         "file": "TWVariants.txt"
       }
     }
