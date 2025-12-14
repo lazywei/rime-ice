@@ -25,8 +25,17 @@
     },
     {
       "dict": {
-        "type": "text",
-        "file": "TWPhrases.txt"
+        "type": "group",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "TWPhrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "CustomPhrases.txt"
+          }
+        ]
       }
     },
     {
