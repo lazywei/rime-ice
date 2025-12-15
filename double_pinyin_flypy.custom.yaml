@@ -3,7 +3,17 @@ patch:
   translator/enable_correction: false
 
   'speller/algebra/+':
+    - abbrev/^([a-z]).+$/$1/
     - derive/^x/z/  # 把所有 x 開頭的編碼，額外衍生出 z 開頭的讀音（容許 zn 出小）
     - derive/^z/x/  # Z -> X
     - derive/^i/u/  # I -> U
     - derive/^u/i/  # U -> I
+
+  key_binder/bindings:
+    - { when: has_menu, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down }
+
+  "punctuator/half_shape/[": "「"
+  "punctuator/half_shape/]": "」"
+  "punctuator/half_shape/{": "【"
+  "punctuator/half_shape/}": "】"
