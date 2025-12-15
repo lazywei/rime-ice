@@ -1,3 +1,9 @@
 patch:
   traditionalize/opencc_config: s2twcwc.json
-  translator/enable_correction: true
+  translator/enable_correction: false
+
+  'speller/algebra/+':
+    - derive/^x/z/  # 把所有 x 開頭的編碼，額外衍生出 z 開頭的讀音（容許 zn 出小）
+    - derive/^z/x/  # Z -> X
+    - derive/^i/u/  # I -> U
+    - derive/^u/i/  # U -> I
