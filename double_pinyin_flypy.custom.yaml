@@ -1,0 +1,3 @@
+patch:
+  traditionalize/opencc_config: s2twcwc.json
+  translator/enable_correction: true
