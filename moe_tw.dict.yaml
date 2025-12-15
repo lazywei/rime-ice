@@ -1,0 +1,99 @@
+# Rime dictionary: moe_tw
+# encoding: utf-8
+# 台灣教育部重編國語辭典 / 通用習慣讀音補丁
+# 專注於解決聲母/韻母不同的「異讀字」，權重設為最高以覆蓋原版
+
+name: moe_tw
+version: "2025.12.15"
+sort: by_weight
+use_preset_vocabulary: false
+
+...
+
+# --- 1. 生活高頻詞 (必加區) ---
+垃圾	le se	100000
+和	han	100000
+混和	hun han	100000
+包括	bao gua	100000
+括號	gua hao	100000
+總括	zong gua	100000
+液體	yi ti	100000
+血液	xie yi	100000
+暫時	zhan shi	100000
+暫且	zhan qie	100000
+短暫	duan zhan	100000
+角色	jiao se	100000
+主角	zhu jiao	100000
+配角	pei jiao	100000
+獨角戲	du jiao xi	100000
+
+# --- 2. 文讀與常用破音字 ---
+說服	shui fu	100000
+遊說	you shui	100000
+滑稽	gu ji	100000
+蛤蜊	ge li	100000
+多麼	duo me	100000
+什麼	she me	100000
+這麼	zhe me	100000
+那麼	na me	100000
+怎麼	ze me	100000
+癌	yan	100000
+癌症	yan zheng	100000
+肺癌	fei yan	100000
+肝癌	gan yan	100000
+
+# --- 3. 韻母差異 (o/uo, u/ou, etc.) ---
+剝削	bo xue	100000
+剝奪	bo duo	100000
+熟悉	shou xi	100000
+熟練	shou lian	100000
+成熟	cheng shou	100000
+寂寞	ji mo	100000
+
+# --- 4. 聲母差異 (zh/z, ch/c, etc.) ---
+幀	zheng	100000
+一幀	yi zheng	100000
+數幀	shu zheng	100000
+驟雨	zou yu	100000
+步驟	bu zou	100000
+急驟	ji zou	100000
+攜帶	xi dai	100000
+提攜	ti xi	100000
+發酵	fa xiao	100000
+酵素	xiao su	100000
+酵母	xiao mu	100000
+抽搐	chou xu	100000
+塑膠	suo jiao	100000
+塑造	suo zao	100000
+雕塑	diao suo	100000
+懸崖	xuan ai	100000
+山崖	shan ai	100000
+蝸牛	gua niu	100000
+蝸居	gua ju	100000
+
+# --- 6. 容易混淆的字 (依需求選用) ---
+# 這些字在兩岸可能相同，但因為台灣發音習慣，常有人拼錯，加上容錯
+# ---------------------
+# 糾結 - jiu jie (標準)，若你習慣打 jiao jie 可自行開啟下行：
+# 糾結	jiao jie	100000
+# 
+# 期待 - qi dai (標準)，若習慣打 ji dai：
+# 期待	ji dai	100000
+#
+# 街道 - jie dao (標準)，若習慣打 gai dao：
+# 街道	gai dao	100000
+
+# --- 7. 單字補丁 (針對單字輸入) ---
+# 如果你習慣單打一個字，也需要修正
+垃	le	100000
+括	gua	100000
+液	yi	100000
+熟	shou	100000
+幀	zheng	100000
+驟	zou	100000
+攜	xi	100000
+酵	xiao	100000
+搐	xu	100000
+塑	suo	100000
+崖	ai	100000
+蝸	gua	100000
