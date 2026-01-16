@@ -499,13 +499,6 @@ PC	PC
 iStat	iStat
 ClashX	ClashX
 ClashX Pro	ClashXPro
-qBittorrent	qBittorrent
-qBittorrent	qBit
-qBittorrent Enhanced Edition	qEE
-qBittorrent Enhanced Edition	qBEE
-qBittorrent Enhanced Edition	qBitEE
-qBittorrent Enhanced Edition	qBittorrentEE
-qBittorrent Enhanced Edition	qBittorrentEnhancedEdition
 YAML	YAML
 YAML Ain't Markup Language	YAML
 TOML	TOML
@@ -1574,9 +1567,6 @@ International Standard Book Number	InternationalStandardBookNumber
 ISSN	ISSN
 International Standard Serial Number	ISSN
 International Standard Serial Number	InternationalStandardSerialNumber
-QoS	QoS
-Quality of Service	QoS
-Quality of Service	QualityofService
 DoH	DoH
 DNS over HTTPS	DoH
 DNS over HTTPS/3	DoH
@@ -2220,3 +2210,7 @@ Unified Modeling Language	UnifiedModelingLanguage
 Ollama	Ollama
 Omarchy	Omarchy
 LMArena	LMArena
+holdout	holdout
+QE	QE
+H1	H1
+H2	H2
